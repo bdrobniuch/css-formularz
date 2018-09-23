@@ -12,6 +12,7 @@ body {
 
 label {
     display: block;
+    margin: 5px 0;
 
 }
 
@@ -38,11 +39,12 @@ select {
     background-color: #2b4a65;
     border-style: solid;
     border-color: #ffffff;
-    border-width: 1px;
+    border-width: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 50%;
     color: #ffffff;
+    padding =5px;
 }
 
 input:focus,
@@ -52,6 +54,7 @@ select:focus {
     border-style: solid;
     border-color: #ffffff;
     border-width: 1px;
+    
 }
 
 input[type="submit"] {
